@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include <stdlib.h>
 //Global Variable
 int size,choice,ele;
@@ -6,8 +7,8 @@ int size,choice,ele;
 
 //Creating Stack
 struct stack{
-    int arr[100];
-    int top;
+    int arr[100]; // taking array size as 100
+    int top; 
 
 }st;
 
